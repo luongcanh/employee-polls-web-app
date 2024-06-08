@@ -15,7 +15,7 @@ const ErrorPage = () => {
                     <Grid item xs={6}>
                         <Typography variant="h1">404</Typography>
                         <Typography variant="h6">Page Not Found</Typography>
-                        <Button color="blue" appearance="primary" startIcon={<HomeIcon />} variant="contained" onClick={() => navigate('/')}>
+                        <Button x={{ backgroundColor: 'blue', color: 'white' }} startIcon={<HomeIcon />} variant="contained" onClick={() => navigate('/')}>
                             Back Home
                         </Button>
                     </Grid>

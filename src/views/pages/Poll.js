@@ -40,7 +40,7 @@ const Poll = () => {
 		setPercent1(Math.round((noUserSelectOption1 / totalVotes) * 100));
 		setPercent2(Math.round((noUserSelectOption2 / totalVotes) * 100));
 		// eslint-disable-next-line
-	}, [allQuestions, currentQuestion]);
+	}, [allQuestions, currentQuestion, navigate]);
 
 	/**
 	 * @description Handle the selection of Option 1
